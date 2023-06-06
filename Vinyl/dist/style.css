@@ -1,0 +1,35 @@
+body {
+  background-image: url("../bck.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 140vh;
+}
+
+  
+  app-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 1200px) {
+    app-container {
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    app-container {
+      padding: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    app-container {
+      padding: 2px;
+    }
+  }
+  

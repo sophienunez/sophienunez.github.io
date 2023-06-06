@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*myprofile css*/
+
+.Profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user_info {
+  margin-bottom: 20px;
+}
+
+.like-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+h4 {
+  font-size: 24px;
+  color: #333;
+}
+
+.profile_name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.change_info {
+  margin-bottom: 20px;
+}
+
+.password_text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.inputbox {
+  margin-bottom: 10px;
+}
+
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.Change_btn {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: none;
+  color: #fff;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+/* Responsive adjustments */
+
+@media screen and (max-width: 768px) {
+  .Profile {
+    margin-top: 30px;
+  }
+
+  .like-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile_name {
+    font-size: 24px;
+  }
+
+  input[type="password"] {
+    width: 250px;
+  }
+
+  .Change_btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 8px 60px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Profile {
+    margin-top: 20px;
+  }
+
+  .like-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile_name {
+    font-size: 20px;
+  }
+
+  input[type="password"] {
+    width: 200px;
+  }
+
+  .Change_btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 6px 17px;
+    font-size: 10px;
+  }
+}

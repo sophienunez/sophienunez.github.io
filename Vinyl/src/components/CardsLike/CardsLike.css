@@ -1,0 +1,55 @@
+/* Second CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.like-img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  padding-top: 20px;
+  border-radius: 25px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 1200px) {
+    .like-img {
+      width: 150px;
+      height: 150px;
+    }
+    
+    h1 {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .like-img {
+      width: 100px;
+      height: 100px;
+    }
+    
+    h1 {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .like-img {
+      width: 80px;
+      height: 80px;
+    }
+    
+    h1 {
+      font-size: 12px;
+    }
+  }

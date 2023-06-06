@@ -1,0 +1,12 @@
+.suggestions{
+    display: flex;
+    margin-left: 545px;
+}
+
+@media only screen and (max-width: 600px) {
+    .suggestions{
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+    }
+}

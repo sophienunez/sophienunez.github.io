@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cards-like-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.my-cardslike {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.my-cardslike h1 {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.my-cardslike img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .my-cardslike {
+    width: 80px;
+  }
+
+  .my-cardslike h1 {
+    font-size: 12px;
+  }
+
+  .my-cardslike img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .my-cardslike {
+    width: 60px;
+  }
+
+  .my-cardslike h1 {
+    font-size: 10px;
+  }
+
+  .my-cardslike img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .my-cardslike {
+    width: 40px;
+  }
+
+  .my-cardslike h1 {
+    font-size: 8px;
+  }
+
+  .my-cardslike img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+/*Nav section css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    padding-top: 60px;
+}
+
+h2{
+    margin-top: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+h3{
+    text-align: left;
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 300;
+}
+#sidebar{
+    position: fixed;
+    width: 500px;
+    height: 690px;
+    margin-top: 0;
+    border-radius: 25px;
+    background-color: rgba(49, 49, 49, 0.2);
+    backdrop-filter: blur(7px);
+    
+}
+
+#sidebar ul li{
+    color: rgba(230, 230, 230, .9);
+    text-align: left;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+#sidebar ul li:hover{
+    color: rgb(86, 86, 86);
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+}
+
+.search{
+    border-radius: 4px;
+    width: 500px;
+    height: 30px;
+    align-items: center;
+    border: none;
+    text-align: center;
+}
